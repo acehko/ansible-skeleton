@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: skeleton
   author: Andrija Čehko
-  description: Role description.
+  description: Ansible role used as a skeleton for creating other roles.
   company:
   issue_tracker_url: https://github.com/acehko/ansible-skeleton/issues
   license: license (MIT)
