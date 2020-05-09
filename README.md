@@ -35,7 +35,7 @@ None.
 - hosts: all
   gather_facts: yes
   roles:
-    - role: skeleton
+    - role: acehko.skeleton
       app: true
 ```
 
