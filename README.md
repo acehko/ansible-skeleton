@@ -1,6 +1,17 @@
 # Ansible Role: Skeleton
 Ansible role used as a skeleton for creating other roles.
 
+Install role.
+```
+ansible-galaxy install acehko.skeleton
+```
+
+Update `ansible.cfg`
+```
+[galaxy]
+role_skeleton = /home/user/.ansible/roles/acehko.skeleton
+```
+
 **Supported Platforms:**
 - Arch Linux
 - Debian Buster
@@ -22,7 +33,7 @@ None.
 - hosts: all
   gather_facts: yes
   roles:
-    - role: role_name
+    - role: skeleton
       app: true
 ```
 
