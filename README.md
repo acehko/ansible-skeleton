@@ -1,4 +1,6 @@
 # Ansible Role: Skeleton
+[![Build Status](https://travis-ci.com/acehko/ansible-skeleton.svg?branch=master)](https://travis-ci.com/acehko/ansible-skeleton)
+
 Ansible role used as a skeleton for creating other roles.
 
 Install role.
